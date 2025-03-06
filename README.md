@@ -2,6 +2,8 @@
 
 This repository contains a demonstration of the Pythagorean Theorem using Manim, a mathematical animation engine.
 
+![Pythagorean Theorem Animation](media/images/pythagorean_theorem/animation.png)
+
 ## Overview
 
 This project showcases the power of Manim for creating mathematical animations. It includes several scenes that demonstrate the Pythagorean Theorem in different ways:
@@ -9,6 +11,14 @@ This project showcases the power of Manim for creating mathematical animations. 
 1. **PythagoreanTheorem**: A basic demonstration of the theorem with visual and algebraic proofs
 2. **PythagoreanVisualProof**: A visual proof showing how the areas relate
 3. **InteractiveExploration**: Exploration of different right triangles and verification of the theorem
+
+## Animation Preview
+
+The image above shows a frame from the Pythagorean Theorem animation. The visualization demonstrates how the squares constructed on the sides of a right triangle relate to each other, proving that a² + b² = c², where:
+- a and b are the lengths of the legs of the right triangle
+- c is the length of the hypotenuse
+
+The animation builds this concept step by step, showing both the visual and algebraic relationships.
 
 ## Installation
 
@@ -96,6 +106,11 @@ Explores different right triangles (3-4-5, 5-12-13, and 1-1-√2) to show that t
 
 - `pythagorean_theorem.py`: Main code containing all the scenes
 - `hello.py`: Simple hello world script
+- `media/`: Directory containing generated media files
+  - `images/`: Generated images including animation previews
+  - `videos/`: Rendered animation videos
+  - `Tex/`: LaTeX temporary files
+  - `texts/`: Text assets used in animations
 
 ## Resources
 
